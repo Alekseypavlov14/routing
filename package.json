@@ -1,0 +1,24 @@
+{
+  "name": "@oleksii-pavlov/routing",
+  "version": "1.0.0",
+  "description": "Routing manager for vanilla.js applications",
+  "main": "./build/index.js",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "URL",
+    "Routing",
+    "utils"
+  ],
+  "author": "Oleksii Pavlov <aleshapavlov9@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.13",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@oleksii-pavlov/url": "^1.2.1"
+  }
+}
